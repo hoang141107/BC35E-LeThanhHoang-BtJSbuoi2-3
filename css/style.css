@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+.card-body button{
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+.card-body button:hover{
+    background-color: white;
+    color: #1a8754;
+}
+.card-body button{
+    margin-top: 10px;
+}
+.form-group label{
+    color: #1a8754;
+    font-size: 700;
+    margin: 10px 0;
+}
+.card-header{
+    background-color: rgb(190 230 225 / 34%);
+}
+header{
+    background-color: white;
+}
+header li{
+    list-style: none;
+    display: inline;
+}
+header a{
+    text-decoration: none;
+    color: #1a8754;
+    margin: 0 30px;
+    font-size: 700;
+    transition: all 0.5s;
+}
+header a:hover{
+    color: lime;
+}
+header ul{
+    margin: 10px 0;
+}
